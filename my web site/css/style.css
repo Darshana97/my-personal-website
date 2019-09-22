@@ -145,7 +145,7 @@ header nav ul li a:hover{
     margin-left: -3%;
     width: 6%;
     height: 2px;
-    background-color: aqua;
+    background-color: rgb(114, 177, 250);
     z-index: 1;
     -webkit-transition: 0.3s ease; 
     -moz-transition: 0.3s ease;
@@ -156,7 +156,18 @@ header nav ul li a:hover{
 
 .sub-heading:hover:before{
     width: 24%;
-    margin-left: -3%;
+    margin-left: -12%;
 
+}
+
+.sub-heading:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12%;
+    width: 24%;
+    height: 2px;
+    background-color: #e1e1e1;
 }
 

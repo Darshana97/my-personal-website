@@ -4,7 +4,7 @@
 }
 
 body{
-    height: 3000px;
+    height: 2000px;
 }
 
 header{
@@ -17,9 +17,9 @@ header{
 }
 
 .secondary{
-    background-color: deepskyblue;
+    background-color: rgb(53, 243, 243);
     box-shadow: 0px 0px 17px 0px;
-    transition: all 5s ease-in;
+    transition: all 3s ease-in;
 }
 
 nav ul{
@@ -61,6 +61,27 @@ header nav ul li a:hover{
 
 }
 
+.simg1{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/scl1.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.uimg1{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/uni1.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.cimg1{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/con1.jpg);
+    background-size: 100% 100%;
+
+
+}
+
 .slider,.slider ul,.slider ul li{
     height: 850px;
     width: 100%;
@@ -94,6 +115,12 @@ header nav ul li a:hover{
 
 }
 
+.slider p{
+    font-weight: bold;
+    color: white;
+
+}
+
 
 .slider a.btn-full{
     background-color: orange;
@@ -113,8 +140,50 @@ header nav ul li a:hover{
 
 }
 
+.simg2{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/scl6.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.uimg2{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/uni2.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.cimg2{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/con2.jpg);
+    background-size: 100% 100%;
+
+
+}
+
 .img3{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/slider3.JPG);
+    background-size: 100% 100%;
+
+
+}
+
+.simg3{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/scl7.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.uimg3{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/uni3.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.cimg3{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/con3.png);
     background-size: 100% 100%;
 
 
@@ -169,5 +238,78 @@ header nav ul li a:hover{
     width: 24%;
     height: 2px;
     background-color: #e1e1e1;
+}
+
+.sub-heading p {
+    color: #818181;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+
+}
+
+.intro-block{
+    position: relative;
+    background: #f7f7f7;
+    margin: 50px 0px 0px;
+    text-align: center;
+    padding: 70px 25px 40px;
+}
+
+.intro-block:hover, .intro-block.active{
+    background: #0AABE1;
+}
+
+.intro-block:hover{
+    transition: .6s ease;
+    -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    -o-transition: .6s ease;
+    -ms-transition: .6s ease;
+
+    
+}
+
+.intro-block .intro-icon{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+}
+
+.intro-block .fa{
+    width: 63px;
+    height: 63px;
+    font-size: 30px;
+    color: white;
+    line-height: 2;
+    background: deepskyblue;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #CCEEF9;
+    
+}
+
+.intro-block:hover .fa, .intro-block.active .fa{
+    background: white;
+    color: deepskyblue;
+    box-shadow: 0px 0px 0px 10px deepskyblue;
+}
+
+.intro-block h3{
+    font-size: 18px;
+    color: deepskyblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.intro-block p{
+    color: #505050;
+}
+
+.intro-block:hover h3, .intro-block:hover p{
+    color: #f6f6f6;
 }
 

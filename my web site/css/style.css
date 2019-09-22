@@ -17,7 +17,8 @@ header{
 }
 
 .secondary{
-    background-color: rgb(53, 243, 243);
+    /* background-color: rgb(53, 243, 243); */
+    background-color:#5673f5;
     box-shadow: 0px 0px 17px 0px;
     transition: all 3s ease-in;
 }
@@ -201,9 +202,16 @@ header nav ul li a:hover{
     text-align: center;
 }
 
+.intro-area h2{
+    color: #c334eb;
+    font-weight: bold;
+}
+
 .sub-heading{
     position: relative;
     margin-bottom: 75px;
+    
+    font-weight: bold;
 }
 
 .sub-heading:before{
@@ -213,8 +221,8 @@ header nav ul li a:hover{
     left: 50%;
     margin-left: -3%;
     width: 6%;
-    height: 2px;
-    background-color: rgb(114, 177, 250);
+    height: 3px;
+    background-color: #47045c;
     z-index: 1;
     -webkit-transition: 0.3s ease; 
     -moz-transition: 0.3s ease;
@@ -241,12 +249,15 @@ header nav ul li a:hover{
 }
 
 .sub-heading p {
-    color: #818181;
+    /* color: #818181; */
+    color: #f50707;
     display: inline-block;
     padding: 0px 0px 20px;
     position: relative;
     line-height: 24px;
     letter-spacing: 0.025em;
+    font-size: 18px;
+
 
 }
 
@@ -311,5 +322,9 @@ header nav ul li a:hover{
 
 .intro-block:hover h3, .intro-block:hover p{
     color: #f6f6f6;
+}
+
+.social-media-links{
+    text-align: center;
 }
 

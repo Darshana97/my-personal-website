@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/brands.min.css" integrity="sha256-uDPmT0cBhgbD0vyb8hr076ZhG5XwUmJe/KCLiAvPyAo=" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/caroufredsel.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Chat</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <a href="" class="logo"><img src="images/newlogo.png" alt=""></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About Me</a> </li>
+                        <li><a href="school.html">School</a> </li>
+                        <li><a href="university.html">University</a> </li>
+                        <li><a href="gallery.html">Photos</a> </li>
+
+                        <li><a href="contacts.html">Contact Me</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+        <ul class="slider-carousel" id="slider-carousel">
+            <li class="mimg1">
+                <h2>Hello I'm <span> Darshana Senevirathna</span></h2>
+                <a href="https://www.facebook.com/brayan.senevirathna"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/brayan_senevirathna/?hl=en"><i class="fa fa-instagram"></a></i>
+                <a href="https://www.linkedin.com/in/darshana-senevirathna-44a2a215b/"><i
+                        class="fa fa-linkedin"></a></i>
+                <p><br>
+                    This is my personal web site
+                </p><br>
+                <a href="https://www.blogger.com/profile/05845219581681550666" class="btn btn-half">My bloggs</a>
+                <a href="chat.html" class="btn btn-full">New Chat</a>
+
+            </li>
+            <li class="mimg2">
+                <h2>Hello I'm <span> Darshana Senevirathna</span></h2>
+                <a href="https://www.facebook.com/brayan.senevirathna"><i class="fa fa-facebook"></a></i>
+                <a href="https://www.instagram.com/brayan_senevirathna/?hl=en"><i class="fa fa-instagram"></a></i>
+                <a href="https://www.linkedin.com/in/darshana-senevirathna-44a2a215b/"><i
+                        class="fa fa-linkedin"></a></i>
+                <p><br>
+                    This is my personal web site
+                </p><br>
+                <a href="https://www.blogger.com/profile/05845219581681550666" class="btn btn-half">My bloggs</a>
+                <a href="chat.html" class="btn btn-full">New Chat</a>
+
+            </li>
+            <li class="mimg3">
+                <h2>Hello I'm <span> Darshana Senevirathna</span></h2>
+                <a href="https://www.facebook.com/brayan.senevirathna"><i class="fa fa-facebook"></a></i>
+                <a href="https://www.instagram.com/brayan_senevirathna/?hl=en"><i class="fa fa-instagram"></a></i>
+                <a href="https://www.linkedin.com/in/darshana-senevirathna-44a2a215b/"><i
+                        class="fa fa-linkedin"></a></i>
+                <p><br>
+                    This is my personal web site
+                </p><br>
+                <a href="https://www.blogger.com/profile/05845219581681550666" class="btn btn-half">My bloggs</a>
+                <a href="chat.html" class="btn btn-full">New Chat</a>
+
+            </li>
+        </ul>
+    </section>
+
+    <section class="ccontainer">
+        <!-- <h2>Popup chat window</h2> -->
+
+        <button class="open-button" onclick="openform()">Chat</button>
+
+        <div class="chat-popup" id="myform">
+            <form action="" class="form-container">
+                <h1>Chat</h1>
+                <label for="msg"><b>Message</b></label>
+                <textarea name="msg" placeholder="Type message here..." required></textarea>
+                <button class="btn" type="submit">Send</button>
+                <button class="btn cancel" type="button" onclick="closeform()">Close</button>
+            </form>
+        </div>
+
+    </section>
+
+    <script>
+
+        function openform() {
+            document.getElementById('myform').style.display = "block";
+        }
+
+        function closeform() {
+            document.getElementById('myform').style.display = "none";
+        }
+
+    </script>
+
+    <section class="social-media-links">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href=""><i class="fa fa-github"></i></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <em>All Right Reserved &reg - Darshana Senevirathna</em>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

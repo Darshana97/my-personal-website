@@ -83,6 +83,13 @@ header nav ul li a:hover{
 
 }
 
+.mimg1{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/chat3.png);
+    background-size: 100% 100%;
+
+
+}
+
 .slider,.slider ul,.slider ul li{
     height: 850px;
     width: 100%;
@@ -162,6 +169,13 @@ header nav ul li a:hover{
 
 }
 
+.mimg2{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/chat.png);
+    background-size: 100% 100%;
+
+
+}
+
 .img3{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/slider3.JPG);
     background-size: 100% 100%;
@@ -185,6 +199,13 @@ header nav ul li a:hover{
 
 .cimg3{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/con3.png);
+    background-size: 100% 100%;
+
+
+}
+
+.mimg3{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(..//images/chat2.jpg);
     background-size: 100% 100%;
 
 
@@ -381,6 +402,110 @@ header nav ul li a:hover{
     text-align: center;
     margin-top: 100px;
     font-size: 20px;
+}
+
+.ccontainer{
+    padding-top: 2000px;
+    /* height: 1000px; */
+    width: 100%;
+    background-image: url(..//images/msg2.png);
+    background-size: cover;
+}
+
+.ccontainer h2{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    font-size: 50px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Comic Sans MS;
+}
+
+.open-button{
+    background-color: rgba(35, 32, 248, 0.8);
+    color: #f0f7f7;
+    font-weight: bold;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+.chat-popup{
+    /* display: none; */
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container{
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #d1d1d1;
+    min-height: 200px;
+    color: rgb(64, 4, 70);
+}
+
+.form-container .btn{
+    background-color: #41f5b9;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel{
+    background-color: #dedfe0;
+    color: rgb(252, 13, 13);
+}
+
+.form-container .btn:hover , .open-button:hover{
+    opacity: 2;
+}
+
+.ghed{
+    text-align: center;
+    color: #ffae34;
+    font-weight: bold;
+    
+}
+
+.gallery{
+    text-align: center;
+    
+    margin: 10px 50px;
+    margin-top: 50px;
+}
+
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 

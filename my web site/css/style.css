@@ -508,5 +508,141 @@ header nav ul li a:hover{
     transform: scale(1.1);
 }
 
+.profile-card{
+    
+    
+    width: 1200px;
+    margin: auto;
+    background: rgb(212, 211, 211);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    margin-top: 50px;
+}
 
+.image-container{
+    position: relative;
+}
 
+.info{
+    color: #f01606;
+    margin-right: 16px;
+
+}
+
+.main-container{
+    padding: 20px;
+}
+
+.main-container p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skill-bar{
+    background-color: #bdc9ea;
+     
+    border-radius: 16px;
+}
+
+.progress-bar{
+    padding: 0.1em 16px;
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #4b4fe2;
+}
+
+.title{
+    text-align: center;
+    color: rgb(169, 12, 241);
+    
+}
+
+.scl-container{
+    text-align: center;
+    margin-top: -30px;
+    background-color: #ceced1;
+    
+}
+
+.scl-container h1{
+    font-weight: bold;
+    color: rgb(189, 13, 243);
+    padding-top: 50px;
+}
+
+.scl-container img{
+    padding-top: 20px;
+}
+
+.details{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.mission{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.mission h3{
+    font-weight: bold;
+    color: rgb(252, 55, 55);
+}
+
+.mission p{
+    font-size: 18px;
+}
+
+.clubs{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.clubs h3{
+    color: rgb(252, 55, 55);
+    font-weight: bold;
+}
+
+.clubs ul li{
+    display: block;
+    text-align: justify;
+    margin-left: 870px;
+    font-size: 18px;
+}
+
+.sports{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.sports h3{
+    color: rgb(252, 55, 55);
+    font-weight: bold;
+}
+
+.sports ul li{
+    display: block;
+    text-align: justify;
+    margin-left: 900px;
+    font-size: 18px;
+}
+
+.other{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.other h3{
+    color: rgb(252, 55, 55);
+    font-weight: bold;
+}
+
+.other ul li{
+    display: block;
+    text-align: justify;
+    margin-left: 900px;
+    font-size: 18px;
+}

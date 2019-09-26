@@ -646,3 +646,62 @@ header nav ul li a:hover{
     margin-left: 900px;
     font-size: 18px;
 }
+
+
+.uni-container{
+    text-align: center;
+}
+
+
+.uni-container h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(50, 27, 255);
+}
+
+.uni-details p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.faculties h3{
+    color: rgb(252, 55, 55);
+    font-weight: bold;
+}
+
+.faculties{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.faculties ul li{
+    display: block;
+    text-align: justify;
+    margin-left: 900px;
+    font-size: 18px;
+}
+
+.uni-clubs h3{
+    color: rgb(252, 55, 55);
+    font-weight: bold;
+}
+
+.uni-clubs{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.uni-clubs ul li{
+    display: block;
+    text-align: justify;
+    margin-left: 900px;
+    font-size: 18px;
+}
+
+.map{
+    text-align: center;
+}
+
